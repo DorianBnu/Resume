@@ -133,6 +133,7 @@ main h3 {
     width: 100%;
     margin: 0 ;
     padding: 20px;
+    padding-top: 10px;
     border-radius:10px;
     border : 2px solid rgb(75, 188, 196);
     align-items: center;
@@ -142,6 +143,12 @@ main h3 {
 }
 .h3-center{
     text-align: center;
+}
+.intro-left {
+    flex: 1;
+    width: 100%;
+    max-width: 1000px; /* Adjust as needed */
+    text-align: left; /* Optional: align the text properly */
 }
 .intro-left, 
 .intro-right {
