@@ -94,8 +94,9 @@ nav ul li {
 /* Introduction */
 
 .introduction {
-    margin-top: 85px;
     align-items: center;
+    max-width: 1550px;
+    margin: 85px  auto 0 auto;
 }
 .introduction p {
     font-size: large;
@@ -459,9 +460,11 @@ input, textarea{
         scroll-padding-top: 60px;
     }
     .container-form-name {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
-    
+    .time {
+        padding-top: 5px;
+    }
 }
 @media(min-width:768px) and (max-width: 1048px){
     .first-box, .second-box, .third-box{
@@ -482,5 +485,8 @@ input, textarea{
     }
     .container-form-name {
         margin-bottom: 5px;
+    }
+    .time {
+        padding-top: 5px;
     }
 }
